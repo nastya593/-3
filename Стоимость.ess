@@ -1,0 +1,12 @@
+start
+new stoim number
+new money number
+set money 171
+set stoim 100
+if (money > stoim)
+    log string "Он/она может купить товар."
+close
+if (stoim > money)
+    log string "Он/она не может купить товар."
+close
+finish
