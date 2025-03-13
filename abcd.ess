@@ -1,16 +1,15 @@
 start
 new AB number
-new BC number
-new CD number
-new AD number
-new ABCD number
-new AC number
-new 
 set AB 19
-log number AB
+new BC number
 set BC 29
+new CD number
 set CD 5
+new AD number
 set AD 49
+new ABCD number
+new AB10 number
+new AB10C number
 set ABCD AD + BC + CD + 10
 if (AD > ABCD)
     log string "Путь пешком займет больше времени"
