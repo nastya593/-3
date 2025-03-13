@@ -1,0 +1,29 @@
+start
+new a number
+set a 5
+new b number
+set b 7
+new c number
+set c 10
+new d number
+set d 35
+new x number
+set x 98
+if (a > x)
+  if (b > x)
+    if (c > x)
+      if (d > x)
+        log string "a > b > c > d > x"
+      else
+        log string "a > b > c > x > d"
+      close
+    else
+      log string "a > b > x > c > d"
+    close
+  else
+    log string "a > x > b > c > d"
+  close
+else
+  log string "x > a > b > c > d"
+close
+finish
